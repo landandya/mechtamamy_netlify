@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+
+# Основные страницы
+Allow: /
+Allow: /user-agreement
+Allow: /public-offer
+
+# Запрещаем индексацию служебных страниц
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+
+# Sitemap
+Sitemap: https://мечтамамы.рф/sitemap.xml
+
+# Специальные директивы для Яндекса
+User-agent: Yandex
+Allow: /
+
+# Специальные директивы для Google
+User-agent: Googlebot
+Allow: /
