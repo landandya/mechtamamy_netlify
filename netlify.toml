@@ -1,11 +1,3 @@
 [build]
   command = "pnpm build"
   publish = ".next"
-
-[[edge_functions]]
-  path = "/api/submit"
-  function = "submit"
-
-[[edge_functions]]
-  path = "/api/telegram-debug"
-  function = "telegram-debug" 
